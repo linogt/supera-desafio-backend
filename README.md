@@ -1,4 +1,4 @@
-# Supera Desafio 05 - Frontend
+# Supera Desafio 05 - Backend
 
 ## Sobre o Projeto
 
