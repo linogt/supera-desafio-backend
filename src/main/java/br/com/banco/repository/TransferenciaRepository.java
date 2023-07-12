@@ -13,6 +13,6 @@ public interface TransferenciaRepository extends JpaRepository<Transferencia,Lon
             "(DATA_TRANSFERENCIA >= ?1 OR ?1 IS NULL) AND " +
             "(DATA_TRANSFERENCIA <= ?2 OR ?2 IS NULL) AND " +
             "(NOME_OPERADOR_TRANSACAO = ?3 OR ?3 IS NULL)")
-    List<Transferencia> getFiltered(String dataInicial, String dataFinal, String nomeOperador);
+    List<Transferencia> getTransferencias(String dataInicial, String dataFinal, String nomeOperador);
 
 }

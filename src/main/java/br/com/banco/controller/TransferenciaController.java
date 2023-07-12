@@ -21,10 +21,9 @@ public class TransferenciaController {
     TransferenciaService transferenciaService;
 
     @RequestMapping(value = "/transferencia", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<?> getFiltered(@RequestParam(required = false) String dataInicial, @RequestParam(required = false) String dataFinal, @RequestParam(required = false) String nomeOperador) {
+    public ResponseEntity<?> getTransferencias(@RequestParam(required = false) String dataInicial, @RequestParam(required = false) String dataFinal, @RequestParam(required = false) String nomeOperador) {
 
-        List<Transferencia> transferencias = transferenciaService.getFiltered(dataInicial, dataFinal, nomeOperador);
-
+        List<Transferencia> transferencias = transferenciaService.getTransferencias(dataInicial, dataFinal, nomeOperador);
         return new ResponseEntity<>(transferencias, HttpStatus.OK);
 
     }

@@ -15,10 +15,9 @@ public class TransferenciaService {
     @Autowired
     TransferenciaRepository transferenciaRepository;
 
-    public List<Transferencia> getFiltered(String dataInicial, String dataFinal, String nomeOperador) {
+    public List<Transferencia> getTransferencias(String dataInicial, String dataFinal, String nomeOperador) {
 
-        List<Transferencia> transferencias = transferenciaRepository.getFiltered(dataInicial, dataFinal, nomeOperador);
-
+        List<Transferencia> transferencias = transferenciaRepository.getTransferencias(dataInicial, dataFinal, nomeOperador);
         return transferencias;
 
     }
