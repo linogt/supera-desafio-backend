@@ -6,8 +6,7 @@ Desafio Técnico proposto pela empresa Supera. O projeto consiste na criação d
 
 ## Explicando Código
 
-
-https://github.com/linogt/supera-desafio-backend/assets/75547468/e723d215-10ff-4f43-a47e-f8226bccdfa7
+https://github.com/linogt/supera-desafio-backend/assets/75547468/5eecb838-c88c-487d-b246-51c5e8d310c1
 
 ## Autor
 
